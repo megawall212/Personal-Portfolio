@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "A personal portfolio website built with React and TypeScript.",
   "private": true,
-  "homepage": "https://megawall.github.io/front-end-design",
+  "homepage": "https://megawall.github.io/Personal-Profolio",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+  "dev": "vite",
+  "build": "tsc && vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -31,8 +31,8 @@
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "gh-pages": "^5.0.0",
     "typescript": "^5.2.2",
-    "vite": "^7.2.4",
-    "gh-pages": "^5.0.0"
+    "vite": "^7.2.4"
   }
 }
